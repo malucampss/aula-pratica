@@ -1,0 +1,13 @@
+console.clear();
+var teclado = require("prompt-sync")();
+var ola = teclado("digite uma congratulacao:");
+var nome = teclado("digite seu nome:");
+var passaTempo = teclado("digite um passatempo");
+var diaAniversario = teclado("digite o dia do aniversario");
+var mesAniversario = teclado("digite o mes de aniversario");
+var anoAniversario = teclado("digite o ano de aniversario");
+console.clear();
+console.log("" + ola);
+console.log("meu nome \u00E9 " + nome + ", nascido no dia " + diaAniversario + ",");
+console.log("no mes " + mesAniversario + " no ano de " + anoAniversario + ",");
+console.log("meu atual passatempo \u00E9 " + passaTempo);
